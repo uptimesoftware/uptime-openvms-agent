@@ -35,6 +35,5 @@ Agent Installation
 Additional Notes
 ================
 
- - This version does not delete it's temporary files, so you may want to set the files nodname_PSINFO.TXT; (also nodename_DBUSY.TXT and nodename_WHOIN.TXT) to have a single file version.  (“$ set file/version=1 filename).
- - These temporary files won't exist untill after the first data collection.
+ - This version does not delete it's temporary files, so you may want to set the files nodname_PSINFO.TXT; (also nodename_DBUSY.TXT and nodename_WHOIN.TXT) to have a single file version.  (“$ set file/version=1 filename). These temporary files won't exist untill after the first data collection.
  
