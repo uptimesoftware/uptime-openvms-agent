@@ -25,11 +25,11 @@ Agent Installation
  - Place the uptime-agent.c & uptimestat.c files on your openvms system.
  - Edit uptime-agent.c and modify the CPU constants on lines 188 - 190
  - Define your cc command, compile, link and run:
-      - mycc :== “cc/warn=disable=(misalgndstrct)/lis “
-      - mycc uptime-agent
-      - link uptime-agent/sysexe
-      - run uptime-agent
-- The agent will then start-up and output some initial debug infomation. Once the program goes into a 'waiting' mode, the agent is ready and can be discovered in up.time via either the 'Auto Discovery Wizard' or 'The add sytem/network '. Though the agent will identify itself as 'up.time agent 6.0.0  linux'.
+     - mycc :== “cc/warn=disable=(misalgndstrct)/lis “
+     - mycc uptime-agent
+     - link uptime-agent/sysexe
+     - run uptime-agent
+ - The agent will then start-up and output some initial debug infomation. Once the program goes into a 'waiting' mode, the agent is ready and can be discovered in up.time via either the 'Auto Discovery Wizard' or 'The add sytem/network '. Though the agent will identify itself as 'up.time agent 6.0.0  linux'.
 
 
 Additional Notes
