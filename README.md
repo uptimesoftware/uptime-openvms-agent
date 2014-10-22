@@ -29,7 +29,7 @@ Agent Installation
      - mycc uptime-agent
      - link uptime-agent/sysexe
      - run uptime-agent
- - The agent will then start-up and output some initial debug infomation. Once the program goes into a 'waiting' mode, the agent is ready and can be discovered in up.time via either the 'Auto Discovery Wizard' or 'The add sytem/network '. 
+ - The agent will then start-up and output some initial debug infomation. Once the program goes into a 'waiting' mode, the agent is ready and can be discovered in up.time via either the 'Auto Discovery Wizard' or the 'Add System/network Device ' options on the My Infrastructure tab. 
 
 
 Additional Notes
